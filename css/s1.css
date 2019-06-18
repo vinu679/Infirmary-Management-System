@@ -1,0 +1,99 @@
+/*custom font*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+/*basic reset*/
+* {margin: 0; padding: 0;}
+
+html {
+	height: 100%;
+	/*Image only BG fallback*/
+	background: url('http://thecodeplayer.com/uploads/media/gs.png');
+	/*background = gradient + image pattern combo*/
+	background: 
+		linear-gradient(rgba(196, 102, 0, 0.2), rgba(155, 89, 182, 0.2)), 
+		url('http://thecodeplayer.com/uploads/media/gs.png');
+}
+
+body {
+	font-family: montserrat, arial, verdana;
+}
+/*form styles*/
+.regform {
+	width: 450px;
+	margin: 40px auto;
+	text-align: center;
+	position: relative;
+}
+.regform fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	
+	box-sizing: border-box;
+	width: 87%;
+	margin: 0 10%;
+	
+	/*stacking fieldsets above each other*/
+	position: absolute;
+}
+/*Hide all except first fieldset*/
+.regform fieldset:not(:first-of-type) {
+	display: none;
+}
+/*inputs*/
+.regform input, .regform textarea {
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	margin-bottom: 8px;
+	width: 80%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
+}
+/*buttons*/
+.regform #next_btn1 {
+	width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+}
+/*headings*/
+.fs-title {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+.fs-subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+}
+
+#pre_btn2{
+color:white;
+background: #27AE60;
+cursor: pointer;
+font-weight: bold;
+}
+.submit_btn{
+color:white;
+background: #27AE60;
+cursor: pointer;
+font-weight: bold;
+}
+#next_btn2{
+color:white;
+background: #27AE60;
+cursor: pointer;
+}
