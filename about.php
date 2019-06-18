@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style type="text/css">
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #3b5998;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+
+  #myBtn:hover {
+    background-color: #555;
+  }
+  </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+  
+    <meta name="theme-color" content="#2fd0af">
+  
+    <link rel="shortcut icon" type="image/x-icon" href="img/icons/logo.png">
+    <title>RGUKT-N OIMS</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src= "vendor/bootstrap/css/bootstrap.min.js"></script>
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="css/menu.css" type="text/css">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/flexslider.css" rel="stylesheet" >
+    <link href="css/animate.css" rel="stylesheet" >
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link href="css/creative.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+
+    <!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+    <link rel="stylesheet" type="text/css" href="slider/style.css" />
+    <script type="text/javascript" src="slider/jquery.js"></script>
+    <!-- End WOWSlider.com HEAD section -->
+
+</head>
+
+<body id="page-top">
+<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="img/bp.jpg" width="50px" height="40px"></button>
+  
+	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid" style="height:50px;">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <!-- <img class="navbar-brand"id="logoIm" src="img/logo.png" style="padding-right:20px;"> -->
+                <a class="navbar-brand page-scroll" href="#page-top">
+                	<span><img style="height:30px" src="img/icons/logo.png"></span>
+                	<span>Rajiv gandhi university knowledge & Technologies </span>
+                </a>
+            </div>
+            <nav class="menu" title="Menu">
+            	<input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open"/>
+            	<label class="menu-open-button" for="menu-open">
+            	    <span class="hamburger hamburger-1"></span>
+	            	<span class="hamburger hamburger-2"></span>
+	            	<span class="hamburger hamburger-3"></span>
+            	</label>
+            	<a href="log.php" class="menu-item" title="Home"><i class="fa fa-home"></i> </a>
+            	<a href="#about_oims" class="menu-item" title="About-OIMS"> <i class="fa fa-hand-o-down"></i> </a>
+            	<a href="#web_team" class="menu-item" title="Web-Team"> <i class="fa fa-users" ></i> </a>
+            	<a href="#contact" class="menu-item" title="Contact"> <i class="fa fa-phone"></i> </a>
+            </nav>
+            <!-- filters -->
+            <svg  version="1.1">
+            	<defs>
+            		<filter id="shadowed-goo">
+            			<feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+            			<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+            			<feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+            			<feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
+            			<feOffset in="shadow" dx="1" dy="1" result="shadow" />
+            			<feComposite in2="shadow" in="goo" result="goo" />
+            			<feComposite in2="goo" in="SourceGraphic" result="mix" />
+            		</filter>
+            		<filter id="goo">
+            			<feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+            			<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+            			<feComposite in2="goo" in="SourceGraphic" result="mix" />
+            		</filter>
+            	</defs>
+            </svg>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!--About OIMS-->
+    <footer id="about_oims">
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                  <br><br>
+                    <div class="col-lg-12 text-center">
+                        <h1 class="section-heading" style="color: #000">About Online Infirmary Management System</h1>
+                        <hr class="primary">
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-6">
+                  <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+                    <br>
+                    <div id="wowslider-container1">
+                      <div class="ws_images">
+                        <ul>
+                          <li><img src="images/7.jpg" alt="n7" title="RGUKT-HOSPITAL" id="wows1_0"/></li>
+                          <li><img src="images/5.jpg" alt="n8" title="RGUKT-Students" id="wows1_1"/></li>
+                          <li><img src="images/6.jpg" alt="n10" title="Health-Camp" id="wows1_2"/></li>
+                          <li><img src="images/8.jpg" alt="n12" title="Web-Team" id="wows1_4"/></li>
+                        </ul>
+                      </div>
+                      <div class="ws_bullets"><div></div></div>
+                      <div class="ws_shadow"></div></div>
+                      <script type="text/javascript" src="slider/wowslider.js"></script>
+                      <script type="text/javascript" src="slider/script.js"></script>
+                      <!-- End WOWSlider.com BODY section -->
+                </div>
+                <div class="col-sm-6">
+                  <div class="panel  panel-success" style=" border-radius:50px 10px!important;">
+                    <div class="panel-heading">
+                      <h1 class="panel-title" style="color: #000">About Online Infirmary Management System</h1>
+                    </div>
+                    <div class="panel-body">
+                      <i class="fa fa-user-md" style="color:#1ab394;font-weight:bolder;">OIMS is a RGUKT-Hospital-based startup which is working on Health issues.<br>OIMS is a RGUKT-Hospital-based startup which is working on Health issues.<br>OIMS is a RGUKT-Hospital-based startup which is working on Health issues.<br>OIMS is a RGUKT-Hospital-based startup which is working on Health issues.<br>OIMS is a RGUKT-Hospital-based startup which is working on Health issues.<br>OIMS is a RGUKT-Hospital-based startup which is working on Health issues.<br>OIMS is a RGUKT-Hospital-based startup which is working on Health issues.<br>OIMS is a RGUKT-Hospital-based startup which is working on Health issues.<br>OIMS is a RGUKT-Hospital-based startup which is working on Health issues.<br>OIMS is a RGUKT-Hospital-based startup which is working on Health issues.<br>OIMS is a RGUKT-Hospital-based startup which is working on Health issues.<br>OIMS is a RGUKT-Hospital-based startup which is working on Health issues.<br></i>
+                    </div>
+                </div>
+              </div>
+            </div>
+            
+        </section>
+    </footer>
+
+    <!--Web Team section-->
+    <footer id="web_team" class="">
+      <section id="device">
+        <div class="container">
+          <div class="row">
+            <br><br><br><br>
+            <div class="col-lg-12 text-center">
+              <h1 class="section-heading" style="color: #000">We're a team that adore what we do</h1>
+              <hr class="primary">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <center>
+                      <a class="img">
+                        <div class="img__overlay">M.Subash</div>
+                        <img src="img/s.png">
+                      </a>
+                      <br>
+                      <h2 style="color: #000">M.Subash</h2>
+                      <p>N140983,E3-CSE-04<p>
+                      <div class="social">
+                        <ul class="social-buttons">
+                          <li><a target="_blank" href="https://www.facebook.com/undru.mahesh.7" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+                          <li><a target="_blank" href="https://www.facebook.com/undru.mahesh.7" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                      </div>
+                    </center>
+                  </div>
+                  <div class="col-sm-3">
+                    <center>
+                      <a class="img">
+                        <div class="img__overlay">Batchu Vinod</div>
+                        <img src="img/v.png">
+                      </a>
+                      <br>
+                      <h2 style="color: #000">B.Vinod Kumar</h2>
+                      <p>N140679,E3-CSE-04<p>
+                      <div class="social">
+                        <ul class="social-buttons">
+                          <li><a target="_blank" href="https://www.facebook.com/subash.chandraswamy.3" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+                          <li><a target="_blank" href="https://www.facebook.com/subash.chandraswamy.3" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                      </div>
+                    </center>
+                  </div>
+                  <div class="col-sm-3">
+                    <center>
+                      <a class="img">
+                       <div class="img__overlay">Undru Mahesh</div>
+                        <img src="img/u.png">
+                      </a>
+                      <br>
+                      <h2 style="color: #000">Undru Mahesh</h2>
+                      <p>N140597,E3-CSE-04<p>
+                      <div class="social">
+                        <ul class="social-buttons">
+                          <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100011099412032&ref=br_tf" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+                          <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100011099412032&ref=br_tf" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                      </div>
+                    </center>
+                  </div>
+                  <div class="col-sm-3">
+                    <center>
+                      <a class="img">
+                        <div class="img__overlay">Uma Mahesh</div>
+                        <img src="img/m.png">
+                      </a>
+                      <br>
+                      <h2 style="color: #000">Uma Mahesh</h2>
+                      <p>N140777,E3-CSE-04<p>
+                      <div class="social">
+                        <ul class="social-buttons">
+                          <li><a target="_blank" href="https://www.facebook.com/umamahesh.reddy.1217" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+                          <li><a target="_blank" href="https://www.facebook.com/umamahesh.reddy.1217" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                      </div>
+                    </center>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <footer id="contact" class="footer-distributed">
+
+            <div class="footer-left">
+
+                <h3><span><img style="height:30px" src="img/icons/logo.png"></span> <b> Online Infirmary Management <span> System</span></b></h3>
+
+                <p class="footer-company-name">RGUKT-N OIMS &copy; 2018. All Rights Reserved</p>
+            </div>
+
+            <div class="footer-center">
+
+                <div>
+          <a class="map-link" target="_blank" href="https://www.google.com/maps/place/IIIT+Nuzvid+Hospital/@16.7933524,80.8224501,17z/data=!4m12!1m6!3m5!1s0x3a3675e44fe2f987:0x3addae9ee48b9487!2sIIIT+Nuzvid+Hospital!8m2!3d16.7933473!4d80.8246388!3m4!1s0x3a3675e44fe2f987:0x3addae9ee48b9487!8m2!3d16.7933473!4d80.8246388">
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>AP IIIT NUZVID</span> RGUKT-HOSPITAL</p>
+        </a>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p><a href="tel:+91-7095175348">+91-7095175348</a></p>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a target="_blank" href="mailto:N140597@rguktn.ac.in">reachus@oims.com</a></p>
+                </div>
+
+            </div>
+
+            <div class="footer-right">
+
+                <p class="footer-company-about">
+                    <span>About the OIMS</span>
+                    OIMS is a RGUKT-Hospital-based startup which is working on Health issues.
+                </p>
+
+                <div class="footer-icons">
+
+                    <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+                    <a target="_blank" href="https://twitter.com/mahesh_undru"><i class="fa fa-twitter"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/company/faclon?trk=ppro_cprof"><i class="fa fa-linkedin"></i></a>
+                    <!-- <a href="#"><i class="fa fa-github"></i></a> -->
+
+                </div>
+
+            </div>
+
+        </footer>
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+</html>
